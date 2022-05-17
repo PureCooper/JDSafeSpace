@@ -1,8 +1,30 @@
 header {
-    background-image: url(banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    border: 10px black solid;
-
-  }
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.navbar-custom {
+  border-top: 4px solid #453465ff;
+  border-bottom: 4px solid #453465ff;
+  background-color: #ebe5f5;
+}
+.custom-color{
+  color: #453465ff;
+}
+.logo {
+  width: 40%;
+  height: 100%;
+  opacity: 0;
+}
+hr.solid {
+  border-top: 4px solid #453465ff;
+  border-radius: 5px;
+  opacity: 1;
+}
+a:link {
+  color: #453465ff;
+}
+a:hover {
+  color: #453465ff;
+}
